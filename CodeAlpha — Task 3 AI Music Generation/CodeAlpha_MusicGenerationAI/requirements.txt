@@ -1,0 +1,19 @@
+# PyTorch (CUDA build). If you're on a different CUDA version or CPU-only,
+# see https://pytorch.org/get-started/locally/ for the right install command.
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.2.0+cu118
+
+# MIDI & music processing
+music21==9.9.2
+
+# Web app (src/app.py)
+streamlit
+
+# Utility & visualization
+numpy==1.26.4
+tqdm==4.66.2
+matplotlib==3.8.2
+
+# Note: audio rendering also requires FluidSynth (a system binary, not a
+# pip package) plus a .sf2 soundfont. See README for setup — this repo
+# works fully without them, just without in-browser/rendered audio playback.
