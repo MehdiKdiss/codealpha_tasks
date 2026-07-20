@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Coverall', 'Gloves', 'Goggles', 'Mask']
+
+roboflow:
+  workspace: cppe-nxmvw
+  project: medical-ppe-o6ot6
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cppe-nxmvw/medical-ppe-o6ot6/dataset/3

@@ -3,15 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Datasets and large files
-*.zip
-*.sf2
-data/raw/
-data/processed/
-outputs/
-models/
-*.pt
-*.pth
+# GitHub strict 100MB limit
+soundfont.sf2
 
 # Environments
 .env

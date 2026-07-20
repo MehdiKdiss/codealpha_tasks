@@ -3,11 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Datasets, weights, and logs
-*.zip
-dataset/
-runs/
-*.pt
+# GitHub strict 100MB limit
+Medical PPE.v3i.yolov8.zip
 
 # Environments
 .env
